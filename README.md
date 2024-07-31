@@ -18,10 +18,8 @@ If no suitable slots are available, the system provides alternative options or p
 
 Implementation Photos and Description :-
 Sign Up Page: -  
-![Alt text]([URL](https://res.cloudinary.com/dwreqec8n/image/upload/v1722445443/1_lis8nu.png))
+![Uploading 1.png…]()
 
-
-  
 
 Login Page: -  
 
