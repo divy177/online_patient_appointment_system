@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="animation.css">  
+    <link rel="stylesheet" href="open.css">  
+    <link rel="stylesheet" href="index.css">
+    <title>Opening</title>
+    <style>
+        table {
+            animation: transitionIn-Y-bottom 0.5s;
+            margin: auto;
+        }
+        body {
+            background-image: url("img-4.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: contain; 
+            background-position: center; 
+            height: 100%;
+            overflow: auto; 
+        }
+        .login-btn {
+            padding-left: 25px;
+            padding-right: 25px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+        .button-cell {
+            text-align: center;
+        }
+        .button-container {
+            display: flex;
+            justify-content: center;
+        }
+        .edoc-logo-container {
+            display: flex; 
+            align-items: baseline; 
+        }
+        .edoc-logo {
+            font-size: 36px; 
+        }
+        .edoc-logo-sub {
+            font-size: 24px; 
+            margin-left: 10px;
+        }
+        .footer-hashen {
+            text-align: center;
+            position: fixed;
+            bottom: 20px; 
+            width: 10%; 
+            color: #fff; 
+            font-size: larger;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="full-height">
+        <center>
+            <table border="0">
+                <tr>
+                    <td width="80%">
+                        <div class="edoc-logo-container">
+                            <font class="edoc-logo">Cooper Hospital</font>
+                            <font class="edoc-logo-sub">| Personal care, Professional approach</font>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td  colspan="3">
+                        <p class="heading-text">Avoid Hassles & Delays.</p>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td  colspan="3">
+                        <p class="sub-text2" style="font-size: 20px; color: rgb(207, 210, 212);">How is health today, Sounds like not good!<br>Don't worry, Find your doctor online and Book as you wish with Cooper Hospital. <br>
+                        Register or Login to our site and Make your appointment now.</p>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td class="button-cell" colspan="3">
+                        <div class="button-container">
+                            <a href="signup.php">
+                                <input type="button" value="Doctor" class="login-btn btn-primary btn">
+                            </a>
+                            <a href="Patient_signup.php" style="margin-left: 10px;">
+                                <input type="button" value="Patient" class="login-btn btn-primary btn">
+                            </a>
+                        </div>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td colspan="3">
+
+                    </td>
+                </tr>
+            </table>
+            <p class="sub-text2 footer-hashen">Welcome</p>
+        </center>
+    </div>
+</body>
+</html>
